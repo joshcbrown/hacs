@@ -1,5 +1,5 @@
 cabal-version:      3.0
-name:               ptcs
+name:               hacs
 version:            0.1.0.0
 synopsis:           conversion from image to command-line colour scripts
 
@@ -35,7 +35,7 @@ library
     hs-source-dirs:   src
     default-language: Haskell2010
 
-executable ptcs
+executable hacs
     main-is:          Main.hs
 
     -- Modules included in this executable, other than Main.
@@ -45,12 +45,12 @@ executable ptcs
     -- other-extensions:
     build-depends:
         base ^>=4.17.2.0,
-        ptcs
+        hacs
 
     hs-source-dirs:   app
     default-language: Haskell2010
 
-test-suite ptcs-test
+test-suite hacs-test
     default-language: Haskell2010
     type:             exitcode-stdio-1.0
     hs-source-dirs:   test

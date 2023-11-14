@@ -8,18 +8,19 @@ data Config = Config
     , file :: String
     }
 
-desc :: String
-desc =
-    "Print an ASCII representation of an image.\n\
-    \Requires the terminal to support truecolor. For a quick test, \
+caveats :: String
+caveats =
+    "requires the terminal emulator to support truecolor. for a quick test, \
     \this will mean `echo $TERMCOLOR` should output `truecolor`."
+
 opts :: ParserInfo Config
 opts =
     info
         (config <**> helper)
         ( fullDesc
-            <> progDesc desc
-            <> header "ptcs - picture to color script"
+            <> progDesc "print a textual representation of an image in a shell\n"
+            <> header "hacs - picture to color script"
+            <> footer caveats
         )
 
 config :: Parser Config
@@ -38,6 +39,7 @@ config =
             ( long "pixel"
                 <> short 'p'
                 <> value "██"
+                <> metavar "2-LENGTH-STRING"
                 <> help "2-length string sequence to use as pixel. default is a unicode block."
             )
         <*> argument str (metavar "FILE" <> help "path to image file")
