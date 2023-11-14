@@ -3,7 +3,8 @@ module Opts where
 import Options.Applicative
 
 data Config = Config
-    { padding :: Int
+    { gap :: Int
+    , pixelString :: String
     , file :: String
     }
 
@@ -26,11 +27,17 @@ config =
     Config
         <$> option
             auto
-            ( long "padding"
-                <> short 'p'
+            ( long "gap"
+                <> short 'g'
                 <> showDefault
                 <> value 0
                 <> metavar "INT"
                 <> help "width of text to left-pad the outputted image"
+            )
+        <*> strOption
+            ( long "pixel"
+                <> short 'p'
+                <> value "██"
+                <> help "2-length string sequence to use as pixel. default is a unicode block."
             )
         <*> argument str (metavar "FILE" <> help "path to image file")

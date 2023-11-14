@@ -579,7 +579,7 @@ angles	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15708/prettypr
 annotate	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15708/prettyprinter-1.7.1/src/Prettyprinter/Internal.hs	1353;"	f
 annotated	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15708/prettyprinter-1.7.1/test/Testsuite/Main.hs	133;"	f
 antiquewhite	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15706/colour-2.3.6/Data/Colour/Names.hs	343;"	f
-appMain	/Users/joshbrown/Coding/haskell/ptcs/src/MyLib.hs	37;"	f
+appMain	/Users/joshbrown/Coding/haskell/ptcs/src/MyLib.hs	32;"	f
 app_prec	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15706/colour-2.3.6/Data/Colour/CIE/Chromaticity.hs	74;"	f
 aqua	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15706/colour-2.3.6/Data/Colour/Names.hs	346;"	f
 aquamarine	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15706/colour-2.3.6/Data/Colour/Names.hs	349;"	f
@@ -643,7 +643,6 @@ bisque	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15706/colour-2
 black	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15706/colour-2.3.6/Data/Colour/Internal.hs	52;"	f
 blanchedalmond	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15706/colour-2.3.6/Data/Colour/Names.hs	363;"	f
 blend	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15706/colour-2.3.6/Data/Colour/Internal.hs	128;"	f
-block	/Users/joshbrown/Coding/haskell/ptcs/src/MyLib.hs	12;"	f
 blue	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15706/colour-2.3.6/Data/Colour/Names.hs	366;"	f
 blueviolet	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15706/colour-2.3.6/Data/Colour/Names.hs	369;"	f
 bold	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15708/prettyprinter-1.7.1/src/Prettyprinter/Render/Tutorials/StackMachineTutorial.hs	48;"	f
@@ -780,7 +779,7 @@ concatMapM	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15710/vect
 concatWith	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15708/prettyprinter-1.7.1/src/Prettyprinter/Internal.hs	955;"	f
 concatenationOfMany	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15708/prettyprinter-1.7.1/test/Testsuite/Main.hs	174;"	f
 concatenationOfTwo	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15708/prettyprinter-1.7.1/test/Testsuite/Main.hs	169;"	f
-config	/Users/joshbrown/Coding/haskell/ptcs/src/Opts.hs	24;"	f
+config	/Users/joshbrown/Coding/haskell/ptcs/src/Opts.hs	25;"	f
 cons	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15708/prettyprinter-1.7.1/src-text/Data/Text.hs	15;"	f
 cons	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15710/vector-stream-0.1.0.0/src/Data/Stream/Monadic.hs	231;"	f
 consistencyCheck	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15711/zlib-0.6.3.0/Codec/Compression/Zlib/Stream.hsc	520;"	f
@@ -893,7 +892,7 @@ deflateMethod	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15711/z
 deflateSetDictionary	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15711/zlib-0.6.3.0/Codec/Compression/Zlib/Stream.hsc	312;"	f
 deflate_	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15711/zlib-0.6.3.0/Codec/Compression/Zlib/Stream.hsc	981;"	f
 derivePrim	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15707/primitive-0.9.0.0/Data/Primitive/Types.hs	327;"	D
-desc	/Users/joshbrown/Coding/haskell/ptcs/src/Opts.hs	10;"	f
+desc	/Users/joshbrown/Coding/haskell/ptcs/src/Opts.hs	11;"	f
 determinant	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15706/colour-2.3.6/Data/Colour/Matrix.hs	35;"	f
 diag	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15708/prettyprinter-1.7.1/src/Prettyprinter/Internal/Debug.hs	64;"	f
 diag'	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15708/prettyprinter-1.7.1/src/Prettyprinter/Internal/Debug.hs	67;"	f
@@ -1005,7 +1004,7 @@ fetchNandInt	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15707/pr
 fetchOrInt	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15707/primitive-0.9.0.0/Data/Primitive/PrimVar.hs	147;"	f
 fetchSubInt	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15707/primitive-0.9.0.0/Data/Primitive/PrimVar.hs	129;"	f
 fetchXorInt	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15707/primitive-0.9.0.0/Data/Primitive/PrimVar.hs	153;"	f
-file	/Users/joshbrown/Coding/haskell/ptcs/src/Opts.hs	7;"	f
+file	/Users/joshbrown/Coding/haskell/ptcs/src/Opts.hs	8;"	f
 fill	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15708/prettyprinter-1.7.1/src/Prettyprinter/Internal.hs	1240;"	f
 fillBreak	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15708/prettyprinter-1.7.1/src/Prettyprinter/Internal.hs	1259;"	f
 fillByteArray	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15707/primitive-0.9.0.0/Data/Primitive/ByteArray.hs	550;"	f
@@ -1082,6 +1081,7 @@ gadt1	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15709/transform
 gadt2	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15709/transformers-compat-0.7.2/tests/GenericsTypes.hs	93;"	f
 gainsboro	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15706/colour-2.3.6/Data/Colour/Names.hs	486;"	f
 gamut	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15706/colour-2.3.6/Data/Colour/RGBSpace.hs	122;"	f
+gap	/Users/joshbrown/Coding/haskell/ptcs/src/Opts.hs	6;"	f
 gcompare	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15709/transformers-compat-0.7.2/generics/Data/Functor/Classes/Generic/Internal.hs	379;"	f
 generate	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15710/vector-stream-0.1.0.0/src/Data/Stream/Monadic.hs	215;"	f
 generateM	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15710/vector-stream-0.1.0.0/src/Data/Stream/Monadic.hs	220;"	f
@@ -1215,7 +1215,7 @@ hue	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15706/colour-2.3.
 huffmanOnlyStrategy	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15711/zlib-0.6.3.0/Codec/Compression/Zlib/Stream.hsc	896;"	f
 identHLexemes	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15709/transformers-compat-0.7.2/generics/Data/Functor/Classes/Generic/Internal.hs	727;"	f
 iforM_	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15707/primitive-0.9.0.0/test/Main.hs	413;"	f
-imagePixels	/Users/joshbrown/Coding/haskell/ptcs/src/MyLib.hs	18;"	f
+imagePixels	/Users/joshbrown/Coding/haskell/ptcs/src/MyLib.hs	12;"	f
 imapPrimArray	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15707/primitive-0.9.0.0/Data/Primitive/PrimArray.hs	779;"	f
 inGamut	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15706/colour-2.3.6/Data/Colour/RGBSpace.hs	55;"	f
 indent	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15708/prettyprinter-1.7.1/src/Prettyprinter/Internal.hs	843;"	f
@@ -1291,7 +1291,7 @@ joinFileName	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15708/pr
 joinFileName	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15709/transformers-compat-0.7.2/dist/build/autogen/Paths_transformers_compat.hs	62;"	f
 joinFileName	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15710/vector-stream-0.1.0.0/dist/build/autogen/Paths_vector_stream.hs	62;"	f
 joinFileName	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15711/zlib-0.6.3.0/dist/build/autogen/Paths_zlib.hs	62;"	f
-juicyToSRGB	/Users/joshbrown/Coding/haskell/ptcs/src/MyLib.hs	21;"	f
+juicyToSRGB	/Users/joshbrown/Coding/haskell/ptcs/src/MyLib.hs	15;"	f
 keepAlive	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15707/primitive-0.9.0.0/Control/Monad/Primitive.hs	366;"	f
 keepAliveLiftedLifted#	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15707/primitive-0.9.0.0/Data/Primitive/Internal/Operations.hs	158;"	f
 keepAliveUnlifted	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15707/primitive-0.9.0.0/Control/Monad/Primitive.hs	382;"	f
@@ -1520,7 +1520,7 @@ olive	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15706/colour-2.
 olivedrab	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15706/colour-2.3.6/Data/Colour/Names.hs	651;"	f
 oneHash	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15709/transformers-compat-0.7.2/generics/Data/Functor/Classes/Generic/Internal.hs	1217;"	f
 opaque	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15706/colour-2.3.6/Data/Colour/Internal.hs	93;"	f
-opts	/Users/joshbrown/Coding/haskell/ptcs/src/Opts.hs	15;"	f
+opts	/Users/joshbrown/Coding/haskell/ptcs/src/Opts.hs	16;"	f
 or	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15710/vector-stream-0.1.0.0/src/Data/Stream/Monadic.hs	1062;"	f
 orange	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15706/colour-2.3.6/Data/Colour/Names.hs	654;"	f
 orangered	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15706/colour-2.3.6/Data/Colour/Names.hs	657;"	f
@@ -1533,7 +1533,6 @@ outputBufferSpaceRemaining	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tm
 over	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15706/colour-2.3.6/Data/Colour/Chan.hs	46;"	f
 over	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15706/colour-2.3.6/Data/Colour/Internal.hs	151;"	f
 pack	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15708/prettyprinter-1.7.1/src-text/Data/Text.hs	23;"	f
-padding	/Users/joshbrown/Coding/haskell/ptcs/src/Opts.hs	6;"	f
 pageWidth	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15708/prettyprinter-1.7.1/src/Prettyprinter/Internal.hs	1223;"	f
 palegoldenrod	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15706/colour-2.3.6/Data/Colour/Names.hs	663;"	f
 palegreen	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15706/colour-2.3.6/Data/Colour/Names.hs	666;"	f
@@ -1562,7 +1561,7 @@ peachpuff	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15706/colou
 peru	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15706/colour-2.3.6/Data/Colour/Names.hs	681;"	f
 pink	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15706/colour-2.3.6/Data/Colour/Names.hs	684;"	f
 pipe	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15708/prettyprinter-1.7.1/src/Prettyprinter/Symbols/Ascii.hs	142;"	f
-pixelToText	/Users/joshbrown/Coding/haskell/ptcs/src/MyLib.hs	15;"	f
+pixelString	/Users/joshbrown/Coding/haskell/ptcs/src/Opts.hs	7;"	f
 plum	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15706/colour-2.3.6/Data/Colour/Names.hs	687;"	f
 plural	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15708/prettyprinter-1.7.1/src/Prettyprinter/Internal.hs	1295;"	f
 plusForeignPtr	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15711/zlib-0.6.3.0/Codec/Compression/Zlib/ByteStringCompat.hs	47;"	f
@@ -1604,7 +1603,7 @@ primaries	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15706/colou
 primaryMatrix	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15706/colour-2.3.6/Data/Colour/RGB.hs	81;"	f
 primitive	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15707/primitive-0.9.0.0/Control/Monad/Primitive.hs	86;"	f
 primitive_	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15707/primitive-0.9.0.0/Control/Monad/Primitive.hs	100;"	f
-printPicture	/Users/joshbrown/Coding/haskell/ptcs/src/MyLib.hs	24;"	f
+printPicture	/Users/joshbrown/Coding/haskell/ptcs/src/MyLib.hs	18;"	f
 productReadPrec	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15709/transformers-compat-0.7.2/generics/Data/Functor/Classes/Generic/Internal.hs	858;"	f
 productShowsPrec	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15709/transformers-compat-0.7.2/generics/Data/Functor/Classes/Generic/Internal.hs	1132;"	f
 prop_Eq	/Users/joshbrown/Coding/haskell/ptcs/dist-newstyle/tmp/src-15709/transformers-compat-0.7.2/tests/GenericsSpec.hs	19;"	f
