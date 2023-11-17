@@ -1,7 +1,7 @@
 module Main where
 
 import Data.Char
-import MyLib (appMain)
+import MyLib
 
 foo :: Int
 foo = 42

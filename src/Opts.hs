@@ -1,10 +1,13 @@
 module Opts where
 
 import Options.Applicative
+import Options.Applicative.Common (optionNames)
 
 data Config = Config
     { gap :: Int
     , pixelString :: String
+    , width :: Maybe Int
+    , saveScript :: Maybe FilePath
     , file :: String
     }
 
@@ -42,4 +45,21 @@ config =
                 <> metavar "2-LENGTH-STRING"
                 <> help "2-length string sequence to use as pixel. default is a unicode block."
             )
-        <*> argument str (metavar "FILE" <> help "path to image file")
+        <*> optional
+            ( option
+                auto
+                ( long "width"
+                    <> short 'w'
+                    <> metavar "INT"
+                    <> help "width of output image. it may be necessary for large images to scale down."
+                )
+            )
+        <*> optional
+            ( strOption
+                ( long "save-script"
+                    <> short 's'
+                    <> metavar "FILEPATH"
+                    <> help "whether to save a shell script to print the image. executing the shell script will be significantly more performant."
+                )
+            )
+        <*> argument str (metavar "FILEPATH" <> help "path to image file")
