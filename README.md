@@ -7,16 +7,15 @@ small haskell script to print out an image as best as possible in a terminal. in
 ```
 hacs - picture to color script
 
-Usage: hacs [-g|--gap INT] [-p|--pixel 2-LENGTH-STRING] [-w|--width INT]
-            [-s|--save-script FILEPATH] FILEPATH
+Usage: hacs [-g|--gap INT] [-p|--pixel STRING] [-w|--width INT]
+            [-s|--save-script FILEPATH] [-i|--invert] FILEPATH
 
   print a textual representation of an image in a shell
 
 Available options:
-  -g,--gap INT             width of text to left-pad the outputted image
+  -g,--gap INT             width of text to left-pad the outputted image.
                            (default: 0)
-  -p,--pixel 2-LENGTH-STRING
-                           2-length string sequence to use as pixel. default is
+  -p,--pixel STRING        2-length string sequence to use as pixel. default is
                            a unicode block.
   -w,--width INT           width of output image. it may be necessary for large
                            images to scale down.
@@ -24,6 +23,7 @@ Available options:
                            whether to save a shell script to print the image.
                            executing the shell script will be significantly more
                            performant.
+  -i,--invert              duplicate and invert the colours of the image.
   FILEPATH                 path to image file
   -h,--help                Show this help text
 

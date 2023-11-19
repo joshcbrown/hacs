@@ -8,6 +8,7 @@ data Config = Config
     , pixelString :: String
     , width :: Maybe Int
     , saveScript :: Maybe FilePath
+    , invert :: Bool
     , file :: String
     }
 
@@ -36,13 +37,13 @@ config =
                 <> showDefault
                 <> value 0
                 <> metavar "INT"
-                <> help "width of text to left-pad the outputted image"
+                <> help "width of text to left-pad the outputted image."
             )
         <*> strOption
             ( long "pixel"
                 <> short 'p'
                 <> value "██"
-                <> metavar "2-LENGTH-STRING"
+                <> metavar "STRING"
                 <> help "2-length string sequence to use as pixel. default is a unicode block."
             )
         <*> optional
@@ -62,4 +63,5 @@ config =
                     <> help "whether to save a shell script to print the image. executing the shell script will be significantly more performant."
                 )
             )
+        <*> switch (long "invert" <> short 'i' <> help "duplicate and invert the colours of the image.")
         <*> argument str (metavar "FILEPATH" <> help "path to image file")

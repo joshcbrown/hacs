@@ -22,21 +22,27 @@ ansiColorString :: PixelRGBA8 -> String
 ansiColorString (PixelRGBA8 r g b _) = "\\x1b[38;2;" ++ show r ++ ";" ++ show g ++ ";" ++ show b ++ "m"
 
 resizeImgWidth :: Int -> Image PixelRGBA8 -> Image PixelRGBA8
-resizeImgWidth w i = resize defaultOptions w (imageHeight i * w `div` imageWidth i) i
+resizeImgWidth w img = resize defaultOptions w (imageHeight img * w `div` imageWidth img) img
 
-preprocess :: Config -> Image PixelRGBA8 -> Image PixelRGBA8
-preprocess conf = maybe id resizeImgWidth (width conf)
+duplicate :: (a -> a) -> [[a]] -> [[a]]
+duplicate f xs = [x ++ (f <$> x) | x <- xs]
+
+preprocess :: Bool -> Maybe Int -> Image PixelRGBA8 -> [[PixelRGBA8]]
+preprocess invert width = f . imagePixels . maybe id resizeImgWidth width
+  where
+    f =
+        if invert
+            then duplicate (\(PixelRGBA8 r g b a) -> PixelRGBA8 (255 - r) (255 - g) (255 - b) a)
+            else id
 
 printPicture ::
     (PixelRGBA8 -> IO ()) ->
     (String -> IO ()) ->
     String ->
     Config ->
-    Image PixelRGBA8 ->
+    [[PixelRGBA8]] ->
     IO ()
-printPicture setColor printText newline conf i = do
-    let pixels = imagePixels i
-
+printPicture setColor printText newline conf pixels = do
     forM_ pixels $ \row -> do
         printText $ replicate (gap conf) ' '
         forM_ (group row) $ \pixelGroup -> do
@@ -47,8 +53,8 @@ printPicture setColor printText newline conf i = do
             printText $ (concat . replicate (length pixelGroup)) groupString
         printText newline
 
-printPicture' :: Config -> Image PixelRGBA8 -> IO ()
-printPicture' conf i = do
+printPicture' :: Config -> [[PixelRGBA8]] -> IO ()
+printPicture' conf pixels = do
     case saveScript conf of
         Just fpath ->
             withFile
@@ -57,18 +63,13 @@ printPicture' conf i = do
                 ( \h -> do
                     let putStr' = hPutStr h
                     putStr' "printf \""
-                    printPicture (putStr' . ansiColorString) putStr' "\\n" conf i
+                    printPicture (putStr' . ansiColorString) putStr' "\\n" conf pixels
                     putStr' "\""
                 )
-        Nothing -> printPicture ansiSetColor putStr "\n" conf i
+        Nothing -> printPicture ansiSetColor putStr "\n" conf pixels
 
 appMain :: IO ()
 appMain = do
     conf <- execParser opts
     img <- readImage $ file conf
-    either print (printPicture' conf . preprocess conf . convertRGBA8) img
-
--- appMain2 :: IO ()
--- appMain2 = do
---     img <- readImage "asset.png"
---     either print (savePngImage "assetResized.png" . resizeImg . convertRGBA8) img
+    either print (printPicture' conf . preprocess (invert conf) (width conf) . convertRGBA8) img
