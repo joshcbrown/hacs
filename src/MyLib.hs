@@ -10,6 +10,7 @@ import Options.Applicative (execParser)
 import Opts
 import System.Console.ANSI
 import System.Console.ANSI.Codes
+import System.Directory
 import System.IO (IOMode (WriteMode), hPutStr, withFile)
 
 imagePixels :: Image PixelRGBA8 -> [[PixelRGBA8]]
@@ -56,7 +57,7 @@ printPicture setColor printText newline conf pixels = do
 printPicture' :: Config -> [[PixelRGBA8]] -> IO ()
 printPicture' conf pixels = do
     case saveScript conf of
-        Just fpath ->
+        Just fpath -> do
             withFile
                 fpath
                 WriteMode
@@ -66,6 +67,8 @@ printPicture' conf pixels = do
                     printPicture (putStr' . ansiColorString) putStr' "\\n" conf pixels
                     putStr' "\""
                 )
+            currPermissions <- getPermissions fpath
+            setPermissions fpath (currPermissions{executable = True})
         Nothing -> printPicture ansiSetColor putStr "\n" conf pixels
 
 appMain :: IO ()
