@@ -36,4 +36,4 @@ mean `echo $TERMCOLOR` should output `truecolor`.
 all using [the example image](drifter.png)
 
 <img width="436" alt="image" src="https://github.com/joshcbrown/hacs/assets/80245312/559292a4-3acf-465f-87a7-0c547392dd46">
-<img width="457" alt="image" src="https://github.com/joshcbrown/hacs/assets/80245312/f148971b-ba37-419d-ad7d-1bf64df01e72">
+<img width="807" alt="image" src="https://github.com/joshcbrown/hacs/assets/80245312/04c96754-e8c8-4229-aec1-4c5fe54c2c39">
